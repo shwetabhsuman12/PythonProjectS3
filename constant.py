@@ -1,0 +1,9 @@
+CONFIG_FILE="config.json"
+HEADER_ROW=1
+VALIDATION_EXCEPTION="Invalid Data Exception."
+VALIDATION_REGEX="Format doesnot match Exception."
+VALIDATION_TYPEMISMATCH="Type Mismatch Exception."
+VALIDATION_MINLENGTH="Less than Minimum Length Exception."
+VALIDATION_MAXLENGTH="Exceed Maximum Length Exception."
+VALIDATION_MINIMUMNUM="Less than minimum number defined."
+VALIDATION_MAXIMUMNUM="More than minimum number defined."

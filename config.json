@@ -1,0 +1,46 @@
+{
+  "inputfile": "C:\\Users\\sumanshw\\Downloads\\Sample.xlsx",
+  "outputfile": "C:\\Users\\sumanshw\\Downloads\\sampleabc.xlsx",
+  "inputsheetname":"LOsKELMA_OU",
+  "outputsheetname": "SAMPLE",
+  "startrow":5,
+  "maxrow": 88,
+  "skiprow":{
+	  "startrow": 1,
+	  "frequency": 100
+  },
+   "payload": [
+	   {
+			"name": "Drug",
+			"startrow": 5,
+			"col": 1,
+		   	"offsetlimit": 91,
+			"increment": "continuous",
+			"validation": {
+				"type": "str",
+				"minlength": 5
+			}
+		},
+	   {
+			"name": "Trigger Medication",
+			"startrow": 5,
+			"col": 2,
+		    "offsetlimit": 91,
+			"increment": "continuous",
+			"validation": {
+				"type": "str",
+				"maxlength": 11
+			}
+		},
+	    {
+			"name": "Program Number",
+			"startrow": 5,
+			"col": 3,
+		   	"offsetlimit": 91,
+			"increment": "continuous",
+			"validation": {
+				"type": "int"
+			}
+		}
+   ]
+}
